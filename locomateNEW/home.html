@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Locomate Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-home">
+  <main class="screen home-screen" aria-label="Mall home screen">
+    <section class="home-top">
+      <div class="status">
+        <span>11:37</span>
+        <div class="system-icons" aria-hidden="true">
+          <div class="signal"><span></span><span></span><span></span><span></span></div>
+          <div class="wifi"></div>
+          <div class="battery"></div>
+        </div>
+      </div>
+
+      <div class="mall-bar">
+        <div class="mall-location">
+          <span class="mall-pin" aria-hidden="true"></span>
+          <div>
+            <strong data-venue-name>INORBIT MALAD</strong>
+            <span><span data-venue-city>MUMBAI</span> <i class="tiny-chevron"></i></span>
+          </div>
+        </div>
+
+        <button class="floor-pill" type="button">
+          <span class="floor-icon" aria-hidden="true"></span>
+          <span class="floor-copy">
+            <strong data-floor-name>GROUND FLOOR</strong>
+            <small>Atrium Entry &middot; Central</small>
+          </span>
+          <i class="right-chevron" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <article class="hero-card" data-banner-card data-static-banner>
+        <div class="hero-card-copy">
+          <span data-banner-tag>DISCOVER</span>
+          <h1 data-banner-title>SHOP, DINE &amp;<br /><b>EXPLORE</b></h1>
+          <p data-banner-subtitle>AT INORBIT MALAD</p>
+          <button class="yellow-action" type="button">EXPLORE NOW <span>-></span></button>
+        </div>
+        <div class="hero-dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      </article>
+
+      <form class="search-card" role="search">
+        <span class="search-icon" aria-hidden="true"></span>
+        <label for="mall-search" class="sr-only">Search stores, products or brands</label>
+        <input id="mall-search" type="search" placeholder="Search for stores, products or brands" />
+        <button type="button" aria-label="Filter search"><span class="filter-icon"></span></button>
+      </form>
+    </section>
+
+    <section class="home-content">
+      <div class="category-grid" aria-label="Mall categories" data-categories-grid>
+        <button class="category" type="button"><span class="cat-icon fashion"><img src="icons/fashion.png" alt="" /></span><b>FASHION</b></button>
+        <button class="category" type="button"><span class="cat-icon food"><img src="icons/food.png" alt="" /></span><b>FOOD</b></button>
+        <button class="category" type="button"><span class="cat-icon footwear"><img src="icons/Footwear.png" alt="" /></span><b>FOOTWEAR</b></button>
+        <button class="category" type="button"><span class="cat-icon jewellery"><img src="icons/Jewellery.png" alt="" /></span><b>JEWELLERY</b></button>
+        <button class="category" type="button"><span class="cat-icon beauty"><img src="icons/Beauty.png" alt="" /></span><b>BEAUTY</b></button>
+        <button class="category" type="button"><span class="cat-icon accessories"><img src="icons/Accessories.png" alt="" /></span><b>ACCESSORIES</b></button>
+        <button class="category" type="button"><span class="cat-icon entertainment"><img src="icons/entertainment.png" alt="" /></span><b>FUN</b></button>
+        <button class="category" type="button"><span class="cat-icon watches"><img src="icons/Watches.png" alt="" /></span><b>WATCHES</b></button>
+        <button class="category" type="button"><span class="cat-icon grocery"><img src="icons/Grocery.png" alt="" /></span><b>GROCERY</b></button>
+        <button class="category" type="button"><span class="cat-icon all"><img src="icons/all.png" alt="" /></span><b>ALL</b></button>
+      </div>
+
+      <article class="navigation-card">
+        <img class="navigation-image" src="homepagebanner.png" alt="Find stores, get directions and explore every corner with ease." />
+      </article>
+
+      <div class="home-section-title">
+        <h2>RECOMMENDED STORES</h2>
+        <a href="#">See All <span>-></span></a>
+      </div>
+
+      <div class="store-grid" data-stores-grid>
+        <article class="store-card">
+          <div class="store-photo zara"><span class="deal">20% OFF</span></div>
+          <div class="store-info">
+            <h3>ZARA</h3>
+            <p><span class="mini-pin"></span>Ground Floor &middot; Central</p>
+            <p><span class="walk-icon"></span><b>60m away</b> &middot; <b>2 min</b></p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+        <article class="store-card">
+          <div class="store-photo hm"><span class="deal">FLAT 30% OFF</span></div>
+          <div class="store-info">
+            <h3>H&amp;M</h3>
+            <p><span class="mini-pin"></span>Ground Floor &middot; West Wing</p>
+            <p><span class="walk-icon"></span><b>60m away</b> &middot; <b>2 min</b></p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+        <article class="store-card">
+          <div class="store-photo starbucks"><span class="deal">BUY 1 GET 1</span></div>
+          <div class="store-info">
+            <h3>Starbucks</h3>
+            <p><span class="mini-pin"></span>Ground Floor &middot; Atrium</p>
+            <p><span class="walk-icon"></span><b>60m away</b> &middot; <b>2 min</b></p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+        <article class="store-card">
+          <div class="store-photo shoppers"><span class="deal">50% OFF</span></div>
+          <div class="store-info">
+            <h3>Shoppers Stop</h3>
+            <p><span class="mini-pin"></span>Ground Floor &middot; East Wing</p>
+            <p><span class="walk-icon"></span><b>80m away</b> &middot; <b>3 min</b></p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+      </div>
+
+      <section class="featured-store-week" aria-label="Featured stores this week">
+        <div class="home-section-title featured-store-heading">
+          <h2>FEATURED STORES THIS WEEK</h2>
+          <a href="#">See All <span>-></span></a>
+        </div>
+
+        <div class="featured-store-strip">
+          <article class="featured-store-card zara-feature">
+            <div class="featured-store-copy">
+              <h3>ZARA</h3>
+              <span class="featured-deal">20% OFF</span>
+            </div>
+          </article>
+          <article class="featured-store-card hm-feature">
+            <div class="featured-store-copy">
+              <h3>H&amp;M</h3>
+              <span class="featured-deal">FLAT 30% OFF</span>
+            </div>
+          </article>
+          <article class="featured-store-card starbucks-feature">
+            <div class="featured-store-copy">
+              <h3>Starbucks</h3>
+              <span class="featured-deal">BUY 1 GET 1</span>
+            </div>
+          </article>
+          <article class="featured-store-card shoppers-feature">
+            <div class="featured-store-copy">
+              <h3>Shoppers Stop</h3>
+              <span class="featured-deal">50% OFF</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="home-section-title event-heading">
+        <h2>HAPPENING THIS WEEK</h2>
+        <a href="#">See All <span>-></span></a>
+      </div>
+
+      <div class="event-grid" data-events-grid>
+        <article class="event-card concert">
+          <div class="event-art">
+            <h3>ABHIJEET<br />BHATTACHARYA</h3>
+            <p>Live in Concert</p>
+          </div>
+          <div class="event-meta">
+            <span>SAT, AUG 8</span>
+            <p><span class="mini-pin"></span>Ground Floor</p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+        <article class="event-card pizza">
+          <div class="event-art">
+            <h3>PIZZA<br />MAKING LIVE</h3>
+          </div>
+          <div class="event-meta">
+            <span>SUN, AUG 9</span>
+            <p><span class="mini-pin"></span>East Wing &middot; Ground Floor</p>
+            <i class="right-chevron" aria-hidden="true"></i>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <nav class="bottom-nav" aria-label="Primary navigation">
+      <a href="scanner.html"><span class="nav-mask nav-navigate"></span>Navigate</a>
+      <a href="#"><span class="nav-mask nav-notification"></span><i></i>Notifications</a>
+      <a class="home-active" href="home.html" aria-current="page"><span class="home-house"></span></a>
+      <a href="#"><span class="nav-mask nav-saved"></span>Saved</a>
+      <a href="#"><span class="nav-mask nav-settings"></span>Settings</a>
+    </nav>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

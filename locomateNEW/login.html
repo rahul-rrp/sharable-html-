@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-login">
+  <main class="screen" aria-label="Login screen">
+    <section class="hero">
+      <div class="status">
+        <span>9:41</span>
+        <div class="system-icons" aria-hidden="true">
+          <div class="signal"><span></span><span></span><span></span><span></span></div>
+          <div class="wifi"></div>
+          <div class="battery"></div>
+        </div>
+      </div>
+
+      <button class="skip" type="button">SKIP</button>
+
+      <div class="hero-copy">
+        <h1>WELCOME <span>BACK</span></h1>
+        <p>Good to see you again</p>
+      </div>
+
+      <img class="pin-art" src="UIUX/extra/login page header .png" alt="" />
+
+      <div class="tabs" role="tablist" aria-label="Authentication mode">
+        <a class="tab" href="signup.html" role="tab">SIGN UP</a>
+        <a class="tab active" href="login.html" role="tab" aria-selected="true">LOGIN</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label class="field-label" for="phone">PHONE NUMBER</label>
+      <div class="phone-field">
+        <div class="country">
+          <span class="flag" aria-hidden="true">🇮🇳</span>
+          <span>+91</span>
+          <span class="chevron" aria-hidden="true"></span>
+        </div>
+        <input id="phone" inputmode="tel" type="tel" placeholder="Enter phone number" />
+      </div>
+
+      <button class="otp" type="button">SEND OTP</button>
+
+      <p class="terms">
+        By continuing, you agree to our<br />
+        <a href="#">TERMS &amp; CONDITIONS</a>
+        &nbsp; • &nbsp;
+        <a href="#">PRIVACY POLICY</a>
+      </p>
+
+      <div class="city" aria-hidden="true"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

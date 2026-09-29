@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Scanner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-scanner">
+  <main class="screen" aria-label="Find you screen">
+    <section class="hero scanner-hero">
+      <div class="status">
+        <span>9:41</span>
+        <div class="system-icons" aria-hidden="true">
+          <div class="signal"><span></span><span></span><span></span><span></span></div>
+          <div class="wifi"></div>
+          <div class="battery"></div>
+        </div>
+      </div>
+
+      <div class="profile-pill">
+        <img src="UIUX/avatar/avatar3.png" alt="" />
+        <div>Hi <strong>OKNN</strong></div>
+        <button type="button" aria-label="Settings">
+          <span class="settings-gear" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="hero-copy scanner-copy">
+        <h1>HELP US <span>FIND YOU</span></h1>
+        <div class="hero-underline"></div>
+        <p>Scan the QR code at the venue or<br />select manually.</p>
+      </div>
+
+      <img class="pin-art scanner-pin" src="UIUX/extra/login page header .png" alt="" />
+    </section>
+
+    <section class="panel scanner-panel">
+      <div class="scanner-title">
+        <div class="icon-tile"><img class="custom-icon tile-icon qr-main-icon" src="UIUX/icons/custom/qr-small.png" alt="" /></div>
+        <div>
+          <h2>SCAN QR CODE</h2>
+          <p>Point your camera at the venue QR code</p>
+        </div>
+      </div>
+
+      <div class="camera-card">
+        <div class="qr-board">
+          <div class="fake-qr"></div>
+        </div>
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+        <span class="scan-line"></span>
+      </div>
+
+      <div class="tip-box">
+        <img class="custom-icon qr-tip-icon" src="UIUX/icons/custom/qr-large.png" alt="" />
+        <p>Look for QR codes at mall entrances,<br />information desks or key locations.</p>
+      </div>
+
+      <div class="divider"><span></span><b>OR</b><span></span></div>
+
+      <button class="select-box" type="button">
+        <span class="icon-tile"><img class="custom-icon tile-icon mall-icon" src="UIUX/icons/custom/mall.png" alt="" /></span>
+        <span><b>SELECT A MALL</b>Select a mall</span>
+        <i class="chevron"></i>
+      </button>
+
+      <button class="select-box" type="button">
+        <span class="icon-tile"><img class="custom-icon tile-icon pin-icon" src="UIUX/icons/custom/location-pin.png" alt="" /></span>
+        <span><b>SELECT YOUR LOCATION</b>Select your location</span>
+        <i class="chevron"></i>
+      </button>
+
+      <button class="otp start-btn" type="button">
+        <img class="custom-icon start-icon" src="UIUX/icons/custom/start-navigation-transparent.png" alt="" />
+        START
+      </button>
+
+      <div class="city" aria-hidden="true"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
